@@ -1,25 +1,25 @@
 package tr.edu.medipol.yova;
 
 public class Cuzdan {
-    private double bakiye;
+    private double bakıye;
 
     public Cuzdan() {
-        this.bakiye = 0.0;
+        this.bakıye = 0.0;
     }
 
     public void paraYukle(double miktar) {
-        this.bakiye += miktar;
+        this.bakıye += miktar;
     }
 
     public void paraHarca(double miktar) {
-        if (this.bakiye >= miktar) {
-            this.bakiye -= miktar;
+        if (this.bakıye >= miktar) {
+            this.bakıye -= miktar;
         } else {
             System.out.println("Yetersiz bakiye!");
         }
     }
 
-    public double bakiyeSorgula() {
-        return this.bakiye;
+    public double bakıyeSorgula() {
+        return this.bakıye;
     }
 }

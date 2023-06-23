@@ -20,7 +20,7 @@ public class CuzdanTest {
         cuzdan.paraYukle(100);
 
         // Then
-        assertEquals(100, cuzdan.bakiyeSorgula(), 0.001);
+        assertEquals(100, cuzdan.bakýyeSorgula(), 0.001);
     }
 
     @Test
@@ -32,7 +32,7 @@ public class CuzdanTest {
         cuzdan.paraHarca(50);
 
         // Then
-        assertEquals(50, cuzdan.bakiyeSorgula(), 0.001);
+        assertEquals(50, cuzdan.bakýyeSorgula(), 0.001);
     }
 
     @Test
@@ -42,7 +42,7 @@ public class CuzdanTest {
         // When: baþlangýçta hiçbir iþlem yapýlmýyor
 
         // Then
-        assertEquals(0, cuzdan.bakiyeSorgula(), 0.001);
+        assertEquals(0, cuzdan.bakýyeSorgula(), 0.001);
     }
 }
 
